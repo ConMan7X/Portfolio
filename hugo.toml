@@ -1,0 +1,9 @@
+baseURL = 'https://connorschicht.com.au/'
+languageCode = 'en-us'
+title = 'Connor Schicht'
+
+theme = 'hugo-book'
+
+
+[params]
+    BookTheme = 'auto'
