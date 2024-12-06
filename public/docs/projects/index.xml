@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Connor Schicht</title>
+    <link>http://localhost:1313/docs/projects/</link>
+    <description>Recent content in Projects on Connor Schicht</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Story</title>
+      <link>http://localhost:1313/docs/projects/data-story/</link>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/projects/data-story/</guid>
+      <description>&lt;h3 id=&#34;data-story&#34;&gt;&#xA;  Data Story&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#data-story&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;h1 id=&#34;australias-reliance-on-mining&#34;&gt;&#xA;  Australia&amp;rsquo;s Reliance on Mining&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#australias-reliance-on-mining&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;November 2023&lt;/p&gt;&#xA;&lt;p&gt;This project focused on exploring data and research available online to explore a topic of interest.&#xA;The main goal was to develop my data visualisation and communication skills.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/posts/connor-schicht-57164b238_comm2501-data-story-activity-7133737600959332352-yTvP?utm_source=share&amp;amp;utm_medium=member_desktop&#34;&gt;LinkedIn Post&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;We don’t know how long our minerals will last for, so why are 60% of our exports from mining?&lt;/p&gt;&#xA;&lt;p&gt;This is a data story looking into the future of the Australian mining industry and how sustainable it is.&#xA;As part of my COMM2501 project, I delved into how the industry affects both the economy and environment&#xA;as well as how action should be taken to prepare Australia for the future.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

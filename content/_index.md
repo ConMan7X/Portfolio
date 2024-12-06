@@ -1,11 +1,11 @@
 ---
-title: Introduction
+title: Homepage
 type: docs
 ---
 
 # Connor Schicht
 
-Hello, I'm Connor, currently an actuarial and computer science student at the University of New South Wales.
+Hello! I'm Connor, an Actuarial and Computer Science student at the University of New South Wales.
 
 Please navigate to the sidebar for my experience, projects and about me!
 
