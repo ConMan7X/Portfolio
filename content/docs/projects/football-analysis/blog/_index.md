@@ -1,7 +1,7 @@
 ---
 Title: Blog
 type: docs
-bookToC: false
+bookToC: true
 date: 2024-07-11
 ---
 
@@ -19,8 +19,9 @@ For starters, I decided to focus my investigation on the 24/25 Premier League se
 - Began importing the data that I wanted into R
 - Made my first somewhat unhelpful visualisations:
 
-![Plots average age in teams vs the number of goals scored](/content/docs/projects/football-analysis/blog_images/AgeVsGoals.png)
-![Histogram of the average age of teams](/content/docs/projects/football-analysis/blog_images/AgeDist.png)
+![Plots average age in teams vs the number of goals scored](images/AgeVsGoals.png)
+
+![Histogram of the average age of teams](images/AgeDist.png)
 
 ### What's Next
 

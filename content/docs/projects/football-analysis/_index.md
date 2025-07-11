@@ -1,6 +1,7 @@
 ---
 Title: Football Analysis
 type: docs
+bookCollapseSection: true
 bookToC: false
 date: 2024-07-11
 ---
