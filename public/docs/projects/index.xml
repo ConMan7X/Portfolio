@@ -6,8 +6,15 @@
     <description>Recent content in Projects on Connor Schicht</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NCSFood</title>
+      <link>http://localhost:1313/docs/projects/ncs-food/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/projects/ncs-food/</guid>
+      <description>&lt;h1 id=&#34;ncsfood&#34;&gt;&#xA;  NCSFood&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#ncsfood&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;My girlfriend and I review some food and restaurants that we experience on a&#xA;social media account for our friends and family to see and interact with.&lt;/p&gt;&#xA;&lt;p&gt;I modify and post these reviews to a website called NCSFood that I maintain.&lt;/p&gt;&#xA;&lt;p&gt;The website in question is a simple static site developed with a HUGO theme&#xA;that stores all of our reviews so that they become searchable and publicly accessible.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Data Story</title>
       <link>http://localhost:1313/docs/projects/data-story/</link>
