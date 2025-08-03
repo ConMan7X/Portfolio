@@ -22,7 +22,8 @@ The website in question is a simple static site developed with a HUGO theme
 that stores all of our reviews so that they become searchable and publicly accessible.
 
 [Link to Website](https://conman7x.github.io/NCSFood)
-![image of website](./ncs-website-image.png)
+
+![Image of website](images/ncs-website-image.png)
 
 While this project is mainly a passion project where I get to share my love
 of certain foods and restaurants, it has also helped me further develop my skills.
