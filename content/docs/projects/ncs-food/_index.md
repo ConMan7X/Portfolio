@@ -18,7 +18,7 @@ social media account for our friends and family to see and interact with.
 
 I modify and post these reviews to a website called NCSFood that I maintain.
 
-The website in question is a simple static site developed with a HUGO theme
+The website in question is a simple site developed using Next.js and Supabase
 that stores all of our reviews so that they become searchable and publicly accessible.
 
 [Link to Website](https://conman7x.github.io/NCSFood)
@@ -29,4 +29,4 @@ While this project is mainly a passion project where I get to share my love
 of certain foods and restaurants, it has also helped me further develop my skills.
 Specifically with Git, Github, and static site development/hosting.
 
-_Technology Utilised: Hugo, Markdown, Github_
+_Technology Utilised: Typescript, React, Next.js, Supabase, Github_
