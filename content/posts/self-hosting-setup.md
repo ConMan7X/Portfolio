@@ -35,4 +35,20 @@ the extra $30 while i'm setting up my whole operation.
 
 ## Step Two: Deciding on an Operating System
 
+On the other side of the server is the software, and the decision that had to be made about operating system and how I
+would host my services. I had heard a lot of good things about Proxmox, a bare metal operating system that allows you to
+easily run many different virtual machines on your computer. Instead, I chose to keep it simple with software I already
+have experience in and that I though would be a bit more hands on and fun.
+
+I ended up going with a bare metal install of Debian Linux, running in headless mode but I did also setup a vnc server
+if I needed to have a GUI. For the services, I will choose to go with docker containers using docker compose to allow
+for some yaml files that I can backup as well as an easy way to update the services in the containers.
+
 ## Step Three: Starting the Servers
+
+The final step in the setting up phase was finally to start doing some self-hosting! I chose to take it slow with this
+and ended up starting with [Mealie](https://mealie.io), a recipe manager. This was nice and easy to setup using the docker
+compose documentation, which would end up being a common theme with all of these open source services, the documentaiton
+is always very good. I also decided to setup a dashboard for my home server, for which my choice of software was
+[Homepage](https://gethomepage.dev/). I thought this was a very simple but very nice looking dashboard. I particularly
+like how easy it is to customise as well all of the widget integrations with different services was possible.

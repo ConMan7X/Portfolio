@@ -27,3 +27,12 @@ for future requirements, especially storage. This idea ruled out a Raspberry Pi 
 increase connections or complexity of the machine. The price or Raspberry Pi's was also a major factor, with even older
 generations costing more than $150 in Australia. I settled on finding a small Dell or Lenovo mini PC, preferably used
 on eBay for extra savings.
+
+After many weeks of looking around at the different options on eBay or refurbished sites, I finally started placing bids
+on a 7th Gen Intel Leonovo Mini PC with 8GB of RAM. In the end, I managed to snag a used one for $150AUD. I landed on
+this specific PC as the 7th Gen Intel chips are capable of hardware transcoding H.265/HEVC that I figured would be worth
+the extra $30 while i'm setting up my whole operation.
+
+## Step Two: Deciding on an Operating System
+
+## Step Three: Starting the Servers
