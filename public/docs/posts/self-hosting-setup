@@ -1,0 +1,29 @@
+---
+author: "Connor Schicht"
+date: 2025-12-21
+linktitle: Self Hosting Setup
+menu:
+  main:
+    parent: self-host
+title: Self Hosting Setup
+weight: 10
+---
+
+## Introduction
+
+Recently, I have been inspired to use my own hardware and storage to self host my own private information, private entertainment,
+and any other private services I may want to host. This project has been greatly inspired by the sheer number of services that
+require subscriptions, the pricing of those subscriptions, and finally the desire to be in control of my own data.
+
+## Step One: Acquiring the Hardware
+
+Hardware being the first step in a project like this can definitely be very daunting, as it often requires quite a large investment
+for something that you haven't even experimented with yet. Luckily, I had gotten a taste of self hosting some very basic services
+on my old macbook pro that was sitting covered in dust, forgotten from my high school days. This small bit of experience had
+given me the confidence and the desire to make a bigger investment.
+
+My plan has always been to purchase a small mini computer that would be low in power consumption but has expandability
+for future requirements, especially storage. This idea ruled out a Raspberry Pi for my needs as any expandability would
+increase connections or complexity of the machine. The price or Raspberry Pi's was also a major factor, with even older
+generations costing more than $150 in Australia. I settled on finding a small Dell or Lenovo mini PC, preferably used
+on eBay for extra savings.
