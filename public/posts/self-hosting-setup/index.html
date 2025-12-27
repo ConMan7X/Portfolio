@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  Introduction
+  #
+
+Recently, I have been inspired to use my own hardware and storage to self host my own private information, private entertainment,
+and any other private services I may want to host. This project has been greatly inspired by the sheer number of services that
+require subscriptions, the pricing of those subscriptions, and finally the desire to be in control of my own data.
+
+  Step One: Acquiring the Hardware
+  #
+
+Hardware being the first step in a project like this can definitely be very daunting, as it often requires quite a large investment
+for something that you haven&rsquo;t even experimented with yet. Luckily, I had gotten a taste of self hosting some very basic services
+on my old macbook pro that was sitting covered in dust, forgotten from my high school days. This small bit of experience had
+given me the confidence and the desire to make a bigger investment.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/self-hosting-setup/">
+  <meta property="og:site_name" content="Connor Schicht">
+  <meta property="og:title" content="Self Hosting Setup">
+  <meta property="og:description" content="Introduction # Recently, I have been inspired to use my own hardware and storage to self host my own private information, private entertainment, and any other private services I may want to host. This project has been greatly inspired by the sheer number of services that require subscriptions, the pricing of those subscriptions, and finally the desire to be in control of my own data.
+Step One: Acquiring the Hardware # Hardware being the first step in a project like this can definitely be very daunting, as it often requires quite a large investment for something that you haven’t even experimented with yet. Luckily, I had gotten a taste of self hosting some very basic services on my old macbook pro that was sitting covered in dust, forgotten from my high school days. This small bit of experience had given me the confidence and the desire to make a bigger investment.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-21T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-21T00:00:00+00:00">
+<title>Self Hosting Setup | Connor Schicht</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/self-hosting-setup/">
+<link rel="stylesheet" href="/book.min.f0351d5c25e0eea9082c331897093f7196a63e3b47c9191bec02c70e7740621c.css" integrity="sha256-8DUdXCXg7qkILDMYlwk/cZamPjtHyRkb7ALHDndAYhw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.407b93d663e373fd74507087a1e47dd048134c87ea52c821cc0b38ef0ac27a60.js" integrity="sha256-QHuT1mPjc/10UHCHoeR90EgTTIfqUsghzAs47wrCemA=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Connor Schicht</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/about/" class="">About Me</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/experience/" class="">Experience</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-84c61e444dca99269872f6b59fa98d24" class="toggle"  />
+    <label for="section-84c61e444dca99269872f6b59fa98d24" class="flex justify-between">
+      <a role="button" class="">Projects</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/projects/ncs-food/" class="">NCSFood</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/projects/data-story/" class="">Data Story</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/"  >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Self Hosting Setup</h3>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#step-one-acquiring-the-hardware">Step One: Acquiring the Hardware</a></li>
+    <li><a href="#step-two-deciding-on-an-operating-system">Step Two: Deciding on an Operating System</a></li>
+    <li><a href="#step-three-starting-the-servers">Step Three: Starting the Servers</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h2>
+    Self Hosting Setup
+  </h2>
+  
+  <div class="flex align-center text-small book-post-date">
+    <img src="/svg/calendar.svg" class="book-icon " alt="" />
+    <span>December 21, 2025</span>
+  </div>
+
+
+
+  
+
+  
+
+
+  <div class="book-post-content"><h2 id="introduction">
+  Introduction
+  <a class="anchor" href="#introduction">#</a>
+</h2>
+<p>Recently, I have been inspired to use my own hardware and storage to self host my own private information, private entertainment,
+and any other private services I may want to host. This project has been greatly inspired by the sheer number of services that
+require subscriptions, the pricing of those subscriptions, and finally the desire to be in control of my own data.</p>
+<h2 id="step-one-acquiring-the-hardware">
+  Step One: Acquiring the Hardware
+  <a class="anchor" href="#step-one-acquiring-the-hardware">#</a>
+</h2>
+<p>Hardware being the first step in a project like this can definitely be very daunting, as it often requires quite a large investment
+for something that you haven&rsquo;t even experimented with yet. Luckily, I had gotten a taste of self hosting some very basic services
+on my old macbook pro that was sitting covered in dust, forgotten from my high school days. This small bit of experience had
+given me the confidence and the desire to make a bigger investment.</p>
+<p>My plan has always been to purchase a small mini computer that would be low in power consumption but has expandability
+for future requirements, especially storage. This idea ruled out a Raspberry Pi for my needs as any expandability would
+increase connections or complexity of the machine. The price or Raspberry Pi&rsquo;s was also a major factor, with even older
+generations costing more than $150 in Australia. I settled on finding a small Dell or Lenovo mini PC, preferably used
+on eBay for extra savings.</p>
+<p>After many weeks of looking around at the different options on eBay or refurbished sites, I finally started placing bids
+on a 7th Gen Intel Leonovo Mini PC with 8GB of RAM. In the end, I managed to snag a used one for $150AUD. I landed on
+this specific PC as the 7th Gen Intel chips are capable of hardware transcoding H.265/HEVC that I figured would be worth
+the extra $30 while i&rsquo;m setting up my whole operation.</p>
+<h2 id="step-two-deciding-on-an-operating-system">
+  Step Two: Deciding on an Operating System
+  <a class="anchor" href="#step-two-deciding-on-an-operating-system">#</a>
+</h2>
+<p>On the other side of the server is the software, and the decision that had to be made about operating system and how I
+would host my services. I had heard a lot of good things about Proxmox, a bare metal operating system that allows you to
+easily run many different virtual machines on your computer. Instead, I chose to keep it simple with software I already
+have experience in and that I though would be a bit more hands on and fun.</p>
+<p>I ended up going with a bare metal install of Debian Linux, running in headless mode but I did also setup a vnc server
+if I needed to have a GUI. For the services, I will choose to go with docker containers using docker compose to allow
+for some yaml files that I can backup as well as an easy way to update the services in the containers.</p>
+<h2 id="step-three-starting-the-servers">
+  Step Three: Starting the Servers
+  <a class="anchor" href="#step-three-starting-the-servers">#</a>
+</h2>
+<p>The final step in the setting up phase was finally to start doing some self-hosting! I chose to take it slow with this
+and ended up starting with <a href="https://mealie.io">Mealie</a>, a recipe manager. This was nice and easy to setup using the docker
+compose documentation, which would end up being a common theme with all of these open source services, the documentaiton
+is always very good. I also decided to setup a dashboard for my home server, for which my choice of software was
+<a href="https://gethomepage.dev/">Homepage</a>. I thought this was a very simple but very nice looking dashboard. I particularly
+like how easy it is to customise as well all of the widget integrations with different services was possible.</p>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#step-one-acquiring-the-hardware">Step One: Acquiring the Hardware</a></li>
+    <li><a href="#step-two-deciding-on-an-operating-system">Step Two: Deciding on an Operating System</a></li>
+    <li><a href="#step-three-starting-the-servers">Step Three: Starting the Servers</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

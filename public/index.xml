@@ -6,7 +6,7 @@
     <description>Recent content in Homepage on Connor Schicht</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
@@ -21,6 +21,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/experience/</guid>
       <description>&lt;h1 id=&#34;experience&#34;&gt;&#xA;  Experience&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#experience&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h3 id=&#34;bunnings---trade-desk-team-member-2022---current&#34;&gt;&#xA;  Bunnings - Trade Desk Team Member (2022 - Current)&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#bunnings---trade-desk-team-member-2022---current&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Price and organise stock for delivery and collection for both commercial and consumer customers&lt;/li&gt;&#xA;&lt;li&gt;Collaborate with team members to negotiate delivery dates and organize picking&lt;/li&gt;&#xA;&lt;li&gt;Provide excellent service to customers both face to face and over the phone&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Self Hosting Setup</title>
+      <link>http://localhost:1313/posts/self-hosting-setup/</link>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/self-hosting-setup/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Recently, I have been inspired to use my own hardware and storage to self host my own private information, private entertainment,&#xA;and any other private services I may want to host. This project has been greatly inspired by the sheer number of services that&#xA;require subscriptions, the pricing of those subscriptions, and finally the desire to be in control of my own data.&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-one-acquiring-the-hardware&#34;&gt;&#xA;  Step One: Acquiring the Hardware&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-one-acquiring-the-hardware&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Hardware being the first step in a project like this can definitely be very daunting, as it often requires quite a large investment&#xA;for something that you haven&amp;rsquo;t even experimented with yet. Luckily, I had gotten a taste of self hosting some very basic services&#xA;on my old macbook pro that was sitting covered in dust, forgotten from my high school days. This small bit of experience had&#xA;given me the confidence and the desire to make a bigger investment.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Data Story</title>
