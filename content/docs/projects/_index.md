@@ -1,5 +1,5 @@
 ---
 title: Projects
-bookCollapseSection: true
+bookCollapseSection: false
 weight: 10
 ---
