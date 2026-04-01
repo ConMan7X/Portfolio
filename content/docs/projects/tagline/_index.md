@@ -17,7 +17,7 @@ Tagline is a simple guessing game that runs within a single docker container, ma
 
 [See Tagline Here](https://github.com/ConMan7X/tagline)
 
-[Tagline Frontend](images/tagline-frontend.png)
+![Tagline Frontend](images/tagline-frontend.png)
 
 The game itself involves guessing a movie based on the tagline or promotional line of the movie. If you can't guess the movie, you can get various hints to help you guess.
 
